@@ -83,6 +83,6 @@ public class LoginTest extends BaseTest {
     @After
     //close all the browser
     public void tearDown() {
-        // closeBrowser();
+        closeBrowser();
     }
 }
