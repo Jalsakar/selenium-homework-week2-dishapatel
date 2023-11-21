@@ -32,6 +32,6 @@ public class ForgotPasswordTest extends BaseTest {
     @After
     //After Annotation to close all the browser
     public void tearDown(){
-        //closeBrowser();
+        closeBrowser();
     }
 }
